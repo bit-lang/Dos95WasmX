@@ -1,5 +1,6 @@
 # Dos 95 Wasm X
-a simple wrapper around [doswasmx]([https://github.com/nbarkhina](https://github.com/nbarkhina/DosWasmX)). big thanks to nbarkhina.
+a simple wrapper around [doswasmx](https://github.com/nbarkhina](https://github.com/nbarkhina/DosWasmX)).
+big thanks to nbarkhina.
 
 ## play your favorite windows 95 games, ***in browser***
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games01.png)
