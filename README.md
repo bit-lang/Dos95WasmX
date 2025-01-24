@@ -1,6 +1,7 @@
 # Dos 95 Wasm X
 a simple wrapper around [doswasmx](https://github.com/nbarkhina](https://github.com/nbarkhina/DosWasmX)).
-big thanks to nbarkhina.
+
+credits goes to nbarkhina.
 
 ## play your favorite windows 95 games, ***in browser***
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games01.png)
@@ -9,16 +10,19 @@ big thanks to nbarkhina.
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games04.png)
 
 ## what is included in the release
+- the app is launching a simple web server, then users can use Chrome / Edge / Firefox to access the embedded Windows instance page
 - Windows executable file in "dos95wasmxen-win-AMD64.zip", embedding a full windows 95 installation, with 512MB hard disk. the executable can run on Windows 7 / 10 / 11
 - linux program in "dos95wasmxen-linux-AMD64", with same embedded contents, runs on AMD64 versions of debian11/12, or ubuntu 22.04/24.04
 
 ## how to use
+- prerequisites: unzip the zip file matching your operating system. directly run executables from within the zip container ***DOES NOT WORK***
+
 1. in windows command line, run dos95wasmxen.exe, ***leave the command console open, do not close it***
 ![run the app](https://github.com/bit-lang/Dos95WasmX/blob/master/images/dos95_start.png)
 2. use your browser to navigate to [URL](http://localhost:8088) <http://localhost:8088>
 3. drag a game CD into the center frame. the ISO image will begin to load and then windows will start
 ![ISO loading](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-start.png)
-4. click on PowerOn button, if windows does not automatically start
+4. click on PowerOn button at the top of browser page, if windows does not automatically start
 5. install your game and enjoy
 6. pre-installed startcraft 1.0 is playable without installation, provided you use the same version of StarCraft game CD.
 
@@ -28,7 +32,7 @@ big thanks to nbarkhina.
 
 ## special notes on how to properly stop the app
 1. please ***always shutdown windows*** after exiting your game
-2. click on Power Off button and close the browser, this way the data will be saved to your browser cache. if you close browser without shutting down windows first and "Power Off", your game data could lost.
+2. click on Power Off button and close the browser, this way the data will be saved to your browser cache. if you close browser without shutting down windows first and "Power Off", your game data is lost.
 3. remember the command prompt where your started and left open? go there and type "stop" at the prompt to stop the app.
 
 ## please refer to doswasmx readme for details on build instructions.
