@@ -13,7 +13,7 @@ big thanks to nbarkhina.
 - linux program in "dos95wasmxen-linux-AMD64", with same embedded contents, runs on AMD64 versions of debian11/12, or ubuntu 22.04/24.04
 
 ## how to use
-1. in windows command line, run dos95wasmxen.exe
+1. in windows command line, run dos95wasmxen.exe, ***leave the command console open, do not close it***
 ![run the app](https://github.com/bit-lang/Dos95WasmX/blob/master/images/dos95_start.png)
 2. use your browser to navigate to [URL](http://localhost:8088) <http://localhost:8088>
 3. drag a game CD into the center frame. the ISO image will begin to load and then windows will start
@@ -25,6 +25,11 @@ big thanks to nbarkhina.
 ## where to get windows 95 game CDs
 - [starcrarft 1 is free now](https://www.cnet.com/tech/computing/how-to-download-the-original-starcraft-for-free/)
 - or, you can get game CDs from <archive.org>
+
+## special notes on how to properly stop the app
+1. please ***always shutdown windows*** after exiting your game
+2. click on Power Off button and close the browser, this way the data will be saved to your browser cache. if you close browser without shutting down windows first and "Power Off", your game data could lost.
+3. remember the command prompt where your started and left open? go there and type "stop" at the prompt to stop the app.
 
 ## please refer to doswasmx readme for details on build instructions.
 
