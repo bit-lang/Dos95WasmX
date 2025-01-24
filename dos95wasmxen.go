@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/bit-lang/Dos95WasmX/staticserver"
 	"embed"
 	"fmt"
 	"io/fs"
 	"sync"
+	"github.com/bit-lang/Dos95WasmX/staticserver"
 )
 
 const (
