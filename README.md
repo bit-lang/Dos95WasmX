@@ -12,7 +12,7 @@ credits goes to nbarkhina.
 ---
 
 running starcraft video on youtube
-[![starcraft1 in action](https://github.com/bit-lang/Dos95WasmX/blob/master/images/startcraft_thumb.jpg)](https://youtu.be/jNrZu2YYt0s)
+[![starcraft1 in action](https://github.com/bit-lang/Dos95WasmX/blob/master/images/startcraft_thumb2.jpg)](https://youtu.be/jNrZu2YYt0s)
 
 ## what is included in the release
 - the app is launching a simple web server, then users can use Chrome / Edge / Firefox to access the embedded Windows instance page
