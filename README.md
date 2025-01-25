@@ -8,7 +8,7 @@ credits goes to nbarkhina.
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games02.png)
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games03.png)
 ![windows 95 gaming](https://github.com/bit-lang/Dos95WasmX/blob/master/images/win95-games04.png)
-[![starcraft1 in action](https://github.com/bit-lang/Dos95WasmX/blob/master/images/startcraft_thumb.jpg)](https://github.com/bit-lang/Dos95WasmX/blob/master/images/20250124-win95-starcraft-play-hevc.mp4)
+[![starcraft1 in action](https://github.com/bit-lang/Dos95WasmX/blob/master/images/startcraft_thumb.jpg)](https://youtu.be/jNrZu2YYt0s)
 
 ## what is included in the release
 - the app is launching a simple web server, then users can use Chrome / Edge / Firefox to access the embedded Windows instance page
